@@ -1,5 +1,5 @@
 import axios from "axios";
-import "dotenv/config";
+// import "dotenv/config";
 
 const apiKey = process.env.OPEN_WEATHER_API;
 console.log("apiKey: ", apiKey);
