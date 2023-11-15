@@ -1,0 +1,12 @@
+GET http://localhost:3001/api/blogs 
+
+###
+POST http://localhost:3001/api/blogs 
+Content-Type: application/json
+
+{
+    "title": "Why is SOFTWARE eating the world",
+    "author": "Andreeseen horowitz",
+    "url": "https://a16z.com/why-software-is-eating-the-world/",
+    "likes": 100
+}
